@@ -15,11 +15,11 @@ endfunction
 function! Affirmation()
     let index = Randnum(4)
     let affirmations = [
-                \"I am not a quitter.",
-                \"I can do this. I will never quit vim. End of story.",
-                \"I am enough. I am whole. I will never quit vim.",
-                \"I don’t sweat the small stuff. Nor do I exit vim.",
-                \"I am adventurous. I overcome fears by following my dreams. My dream is to never quit vim."
+                \"I am not a quitter.(But If i was I would execute LETMEOUTOFHERE)",
+                \"I can do this. I will never quit vim. End of story.(But If i was I would execute LETMEOUTOFHERE)",
+                \"I am enough. I am whole. I will never quit vim.(But If i was I would execute LETMEOUTOFHERE)",
+                \"I don’t sweat the small stuff. Nor do I exit vim.(But If i was I would execute LETMEOUTOFHERE)",
+                \"I am adventurous. I overcome fears by following my dreams. My dream is to never quit vim.(But If i was I would execute LETMEOUTOFHERE)"
                 \]
     return affirmations[index]
 endfunction
